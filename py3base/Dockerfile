@@ -29,7 +29,7 @@ RUN rm /etc/nginx/sites-enabled/default
 COPY ./conf/nginx.conf /etc/nginx/conf.d/my-nginx.conf
 # uwsgi
 COPY ./conf/uwsgi/uwsgi.ini /opt/django/uwsgi.ini 
-COPY ./conf/uwsgi/uwsgi_params:/opt/django/uwsgi_params
+COPY ./conf/uwsgi/uwsgi_params /opt/django/uwsgi_params
 # supervisor
 COPY ./conf/supervisor.conf /etc/supervisor/conf.d/
 COPY requirements.txt /opt/django/app/

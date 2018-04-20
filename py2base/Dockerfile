@@ -29,7 +29,7 @@ COPY ./conf/nginx.conf /etc/nginx/sites-available/default
 COPY ./conf/supervisor.conf /etc/supervisor/conf.d/
 # uwsgi
 COPY ./conf/uwsgi/uwsgi.ini /opt/django/uwsgi.ini 
-COPY ./conf/uwsgi/uwsgi_params:/opt/django/uwsgi_params
+COPY ./conf/uwsgi/uwsgi_params /opt/django/uwsgi_params
 
 COPY requirements.txt /opt/django/app/
 
