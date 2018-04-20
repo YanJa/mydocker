@@ -1,0 +1,7 @@
+--- # Configuration
+ftp_user : uftp
+ftp_pass : 123
+ftp_host : localhost
+databases :
+  - "divo3me"
+  - "sonnet2ps"

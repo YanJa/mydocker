@@ -1,0 +1,3 @@
+#! /bin/bash
+docker tag fangzx/mysql:5.7a registry.cn-hangzhou.aliyuncs.com/fangzx/mysql_5.7a
+docker push registry.cn-hangzhou.aliyuncs.com/fangzx/mysql_5.7a

@@ -1,0 +1,3 @@
+
+# m h  dom mon dow   command
+0 2 * * * /disk1/backuptools/backup.sh  >> /disk1/backup.log 2>&1
