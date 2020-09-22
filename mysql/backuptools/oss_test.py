@@ -3,7 +3,7 @@ import os
 from oss.oss_api import OssAPI
 
 BUCKET_NAME = "fzx-backup"
-oss = OssAPI("oss.aliyuncs.com", "RPFrp3cHPqEYWdUC", "jaDVkNHMvJpGSfXV9euC7AR4uTyI3k")
+oss = OssAPI("oss.aliyuncs.com", "", "")
 
 part = 'crontab.txt'
 part_filename = './crontab.txt'
